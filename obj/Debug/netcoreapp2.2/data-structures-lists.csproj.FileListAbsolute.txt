@@ -1,0 +1,11 @@
+C:\Users\nickh\workspace\data-structures-lists\obj\Debug\netcoreapp2.2\data-structures-lists.csprojAssemblyReference.cache
+C:\Users\nickh\workspace\data-structures-lists\obj\Debug\netcoreapp2.2\data-structures-lists.csproj.CoreCompileInputs.cache
+C:\Users\nickh\workspace\data-structures-lists\obj\Debug\netcoreapp2.2\data-structures-lists.AssemblyInfoInputs.cache
+C:\Users\nickh\workspace\data-structures-lists\obj\Debug\netcoreapp2.2\data-structures-lists.AssemblyInfo.cs
+C:\Users\nickh\workspace\data-structures-lists\bin\Debug\netcoreapp2.2\data-structures-lists.deps.json
+C:\Users\nickh\workspace\data-structures-lists\bin\Debug\netcoreapp2.2\data-structures-lists.runtimeconfig.json
+C:\Users\nickh\workspace\data-structures-lists\bin\Debug\netcoreapp2.2\data-structures-lists.runtimeconfig.dev.json
+C:\Users\nickh\workspace\data-structures-lists\bin\Debug\netcoreapp2.2\data-structures-lists.dll
+C:\Users\nickh\workspace\data-structures-lists\bin\Debug\netcoreapp2.2\data-structures-lists.pdb
+C:\Users\nickh\workspace\data-structures-lists\obj\Debug\netcoreapp2.2\data-structures-lists.dll
+C:\Users\nickh\workspace\data-structures-lists\obj\Debug\netcoreapp2.2\data-structures-lists.pdb
