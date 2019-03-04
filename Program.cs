@@ -5,6 +5,11 @@ namespace data_structures_lists
 {
     class Program
     {
+        static void planetPrinter(List<string> stringList){
+            foreach(string item in stringList){
+                Console.WriteLine(item);
+            }
+        }
         static void Main(string[] args)
         {
             List<string> planetList = new List<string>(){"Mercury", "Mars"};
@@ -16,6 +21,10 @@ namespace data_structures_lists
             planetList.Add("Saturn");
             planetList.ForEach(planet => Console.Write($"{planet}" + " "));
             Console.WriteLine();
+//adding using the planetPrinter method
+            Console.WriteLine("//// Testing new method planetPrinter ////");
+            planetPrinter(planetList);
+            Console.WriteLine("//// End method test ////");
 
 // Create another List that contains that last two planet of our solar system.
             List<string> lastPlanets = new List<string>(){"Uranus", "Neptune"};
@@ -62,11 +71,6 @@ namespace data_structures_lists
 
             // ------------------------<< Numbers exercise >>------------------------------
 
-            //  Console.WriteLine("Five random integer values:");
-            //     for (int ctr = 0; ctr <= 4; ctr++)
-            //         Console.Write("{0,15:N0}", rand.Next());
-            //     Console.WriteLine();
-
             Random random = new Random();
             List<int> numbers = new List<int> {
                 random.Next(10),
@@ -78,8 +82,7 @@ namespace data_structures_lists
             for(int i = 0; i < numbers.Count; i++) {
                 if (numbers.Contains(i)) {
                     Console.WriteLine($"{i} is in the list");
-                }
-                else {
+                } else {
                     Console.WriteLine ($"{i} is not in the list of numbers.");
                 }
             }
